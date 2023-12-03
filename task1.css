@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.start {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/food2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.navbar h2 {
+    margin-left: 50px;
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin: 0px 120px 0px 0px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.navbar ul li a.active {
+    color: #f08804;
+
+}
+
+.navbar ul li a:hover {
+    color: #f08804;
+}
+
+.btn1 button {
+    color: #000;
+    font-size: 18px;
+    border-radius: 10px 0px 0px 0px;
+    background-color: #f08804;
+    padding: 8px;
+    text-transform: capitalize;
+    margin-left: 15px;
+
+}
+
+.btn1 button:hover {
+    background: transparent;
+    border: 2px solid #f08804;
+    color: #fff;
+}
+
+.menu-btn {
+    position: relative;
+    bottom: 8px;
+    right: 30px;
+    color: #000;
+    float: right;
+    font-size: 18px;
+    border-radius: 10px 0px 0px 0px;
+    background-color: #f08804;
+    padding: 10px;
+}
+
+.menu-btn:hover {
+    background: transparent;
+    border: 2px solid #f08804;
+    color: #000;
+}
+
+.navbar span {
+    color: #f08804;
+}
+
+.content span {
+    color: #f08804;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 100px 0px 0px 80px;
+}
+
+.content p {
+    line-height: 25px;
+    color: #fff;
+    font-size: 20px;
+    padding: 30px 0px 0px 90px;
+}
+
+#btn2 {
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 25px 0px 0px 90px;
+    text-transform: capitalize;
+    background-color: #f08804;
+
+}
+
+#btn2:hover {
+    background: transparent;
+    border: 2px solid #f08804;
+    color: #fff;
+}
+
+/* second section start here */
+.main {
+    /* margin:10px ; */
+    background-color: #f5e4df;
+
+}
+
+.main h1 {
+    margin-left: 55px;
+    display: block;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px 0px 10px 30px
+}
+
+.main p {
+    margin-left: 55px;
+    display: inline-block;
+    padding: 5px 0px 10px 35px;
+    font-size: 20px;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 0px 75px 0px 75px;
+    padding: 20px 20px 80px 20px;
+}
+
+.serv1 img {
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    transition: all 0.4s;
+}
+
+.serv1 img:hover {
+    transform: scale(1.1);
+}
+
+.service .serv1 {
+    background-color: #fff;
+    width: 250px;
+    height: 280px;
+    /* outline: 1px solid #f08804; */
+    border-radius: 5PX;
+}
+
+#name {
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+#price {
+    position: relative;
+    top: 25px;
+    margin-right: 20px;
+    float: right;
+    color: red;
+    font-size: 20px;
+}
+
+.book {
+    position: relative;
+    left: 75px;
+    color: #000;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f08804;
+    text-transform: uppercase;
+}
+
+/* 2nd section create */
+.servi {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left h1 {
+    margin-top: 40px;
+    padding: 30px 0px 0px 30px;
+    font-size: 80px;
+    line-height: 75px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.left p {
+    font-size: 20px;
+    padding: 15px 0px 20px 15px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.left button {
+    margin-left: 35px;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #000;
+    padding: 10px;
+    background-color: #f08804;
+    border-radius: 10px 0px 0px 0px;
+
+}
+
+.left button:hover {
+    background: transparent;
+    border: 2px solid #f08804;
+    color: #000;
+}
+
+.right img {
+    padding: 20px;
+    width: 100%;
+    height: 80vh;
+    border-radius: 30px;
+
+}
+
+section {
+    background-color: black;
+}
+
+.row {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    position: relative;
+    padding: 60px 0px 0px 90px;
+    background-color: rgb(77, 74, 74);
+}
+
+.column h4 {
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.column ul li {
+    list-style: none;
+
+}
+
+.column ul li a {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    color: #bbb;
+}
+
+.column ul li a:hover {
+    color: #f08804;
+    padding-left: 8px;
+}
+
+.fa-brands {
+    color: #fff;
+    margin: 8px;
+    font-size: 25px;
+}
+
+.fa-brands:hover {
+    color: #f08804;
+}
